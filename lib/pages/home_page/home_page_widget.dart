@@ -46,8 +46,8 @@ class _HomePageWidgetState extends State<HomePageWidget> {
               Container(
                 width: double.infinity,
                 height: double.infinity,
-                decoration: BoxDecoration(
-                  color: FlutterFlowTheme.of(context).primaryText,
+                decoration: const BoxDecoration(
+                  color: Colors.white,
                 ),
                 child: SizedBox(
                   width: double.infinity,
